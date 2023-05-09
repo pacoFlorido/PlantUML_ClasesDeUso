@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+:Cliente: as Cli
+(Confirmar pedido) as (confirmar)
+(Cancelar pedido) as (cancelar)
+(Devolver cambio) as (cambio)
+
+Cli -- (confirmar)
+Cli -- (cancelar)
+
+(confirmar) ..> (cambio): << include >>
+(cancelar) ..> (cambio): << include >>
+@enduml

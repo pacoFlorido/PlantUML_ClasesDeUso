@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+:Cliente: as Cli
+:Restaurante: as Res
+rectangle {
+(Mostrar menu) as (mostrar)
+(Pedir comida) as (pedir)
+}
+
+(Entregar comida) as (entregar)
+
+Cli -- (mostrar)
+Cli -- (pedir)
+
+(entregar) -- Res
+(mostrar) -- Res
+@enduml

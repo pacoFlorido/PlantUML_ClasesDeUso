@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+(Pagar)
+(Pagar con tarjeta) --|> (Pagar)
+(Pagar en efectivo) --|> (Pagar)
+
+:Cliente: as cli
+:Cliente vip: as cliv
+
+cli <|-- cliv
+cli - (Reservar vuelo)
+cliv - (Elegir asientos)
+@enduml

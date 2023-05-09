@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d60f1100-74b2-4035-a251-266095597ccf" name="Changes" comment="Maquina cafe diagrama de casos de uso, Paco Florido">
-      <change afterPath="$PROJECT_DIR$/src/EjemploTiendaInternet.puml" afterDir="false" />
-    </list>
+    <list default="true" id="d60f1100-74b2-4035-a251-266095597ccf" name="Changes" comment="Tienda Internet diagrama de casos de uso, Paco Florido" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683638495207</updated>
       <workItem from="1683638496964" duration="215000" />
-      <workItem from="1683638722139" duration="4007000" />
+      <workItem from="1683638722139" duration="4315000" />
     </task>
     <task id="LOCAL-00001" summary="Primer diagrama de casos de uso, Paco Florido">
       <created>1683640298632</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683642577869</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tienda Internet diagrama de casos de uso, Paco Florido">
+      <created>1683643073246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683643073246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +120,7 @@
     <MESSAGE value="Tercer diagrama de casos de uso, Paco Florido" />
     <MESSAGE value="Cuarto diagrama de casos de uso, Paco Florido" />
     <MESSAGE value="Maquina cafe diagrama de casos de uso, Paco Florido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maquina cafe diagrama de casos de uso, Paco Florido" />
+    <MESSAGE value="Tienda Internet diagrama de casos de uso, Paco Florido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tienda Internet diagrama de casos de uso, Paco Florido" />
   </component>
 </project>

@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+
+:Cliente: as cli
+
+cli -- (Meter dinero)
+cli -- (Pedir azucar)
+cli -- (Pedir Producto)
+cli -- (Cancelar)
+(Pedir Producto) ..> (Devolver dinero): <<include>>
+(Cancelar) ..> (Devolver dinero): <<include>>
+@enduml

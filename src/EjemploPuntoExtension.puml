@@ -1,0 +1,10 @@
+@startuml
+usecase SacarDinero as " Sacar dinero
+--
+ +solicitud hecha"
+ (Retener tarjeta) as (retener)
+
+note "Descripcion\n--\ncondicion:\n{ historia sospechosa }\npunto de extension:\nsolicitud hecha" as hola
+SacarDinero <|.. hola
+hola .. (retener): <<extends>>
+@enduml
